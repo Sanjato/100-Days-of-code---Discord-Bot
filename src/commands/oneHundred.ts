@@ -31,8 +31,6 @@ export const oneHundred: Command = {
         oneHundredEmbed.setFooter({ text: "Day completed: " + new Date(updateCamper.timestamp).toLocaleDateString()});
 
         await interaction.editReply({ embeds: [oneHundredEmbed] });
-
-        console.log("oneHundred loads.")
     },
 };
 

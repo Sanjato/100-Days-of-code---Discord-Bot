@@ -18,5 +18,7 @@ import { validateEvent } from "./utils/validateEnv";
 
     await connectDatabase();
 
+    await BOT.login(process.env.BOT_TOKEN as string);
+    
     console.log("Connected to Discord!");
 })();
