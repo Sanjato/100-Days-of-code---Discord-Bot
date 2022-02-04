@@ -1,6 +1,5 @@
 import { Command } from "../interface/Command";
 import { SlashCommandBuilder } from "@discordjs/builders";
-import { Interaction } from "discord.js";
 
 export const edit: Command = {
     data: new SlashCommandBuilder()
